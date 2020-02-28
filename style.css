@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+
+header{
+    background: #ff3b00;
+    padding: 24px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    font-size: 20px;
+    padding: 8px 8px;
+    color: white;
+}
+
+main{
+
+}
+
+#main{
+    padding: 48px;
+}
+
+#main{
+    background: #333 url(mainphoto.jpg) no-repeat center center;
+    background-size: auto;
+}
+
+#main h1{
+    text-align: center;
+    font-size: 48px;
+    color: white;
+}
+
+#main .bloco-busca{
+    max-width: 512px;
+    background-color: rgba(255,255,255,.2);
+    border-radius: 15px;
+    margin: 38px auto;
+    padding: 16px;
+    /* opacity: 0.2; */
+}
+
+#main .bloco-busca h4{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 32px;
+}
+
+#main .bloco-busca .button{
+    width: 70%;
+    color: white;
+    background-color: #009147;
+    margin: 16px auto;
+    text-align: center;
+    border-radius: 16px;
+    padding: 16px;
+
+}
+
+.logo{
+    color: white;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
